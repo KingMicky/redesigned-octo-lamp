@@ -26,8 +26,8 @@ The script prints a confirmation message for each successfully uploaded file.
 In case of errors (e.g., network issues, authentication problems), the script displays an error message.
 ## Security Considerations:
 
-*Do not share your credentials.json file publicly.
-*Consider using environment variables or a secrets manager to store your OAuth credentials instead of the credentials.json file.
+* Do not share your credentials.json file publicly.
+* Consider using environment variables or a secrets manager to store your OAuth credentials instead of the credentials.json file.
 ## Additional Notes:
 
 This script uploads all files from the backupfiles directory. You might want to modify it to filter specific file types or add functionalities like error handling for individual file uploads.
